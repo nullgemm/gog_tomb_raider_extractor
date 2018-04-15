@@ -25,8 +25,3 @@ sudo umount "$tr1/mnt"
 
 # cleanup
 rm -r "$tmp"
-
-# pics and zik
-# unzip loading_screens.zip
-# unzip -n tr1-2_soundtracks_for_opentomb.zip
-# rm README.txt
