@@ -2,6 +2,16 @@
 This tool will extract data from GOG's Tomb Raider trilogy setup executable.
 Obtained files can be used with opensource engines like OpenTomb or OpenLara.
 
+## Dependencies
+To use this script, you need to install and configure the following packages:
+ - innoextract
+ - bchunk
+ - curl
+ - unzip
+ - cat
+ - head
+ - sudo
+
 ## How to use
 Run the extraction script in a terminal
 ```
@@ -13,13 +23,3 @@ For OpenTomb, copy the whole `data` folder (the first one, containing the `tr*` 
 
 ## OpenTomb additionnal content
 OpenTomb provides sound and loading screen packages you can install by running the `bonus.sh` script
-
-## Dependencies
-To use this script, you need to install and configure the following packages:
- - innoextract
- - bchunk
- - curl
- - unzip
- - cat
- - head
- - sudo
